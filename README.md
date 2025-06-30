@@ -35,7 +35,7 @@ Refer to the .csv file in this repository for a fully tabulated view of the resu
   Convolutional Layers:
       
        (kernel=5x5, stride=1)      (maxPool-2d, stride = 2)     (kernel=3x3, stride=1)      (maxPool-2d, stride = 2)     (kernel=2x2, stride=1)
-  28x28x1        ->       24x24x10          ->           12x12x10          ->        10x10x32          ->          5x5x32           ->        4x4x64
+     28x28x1        ->       24x24x10          ->           12x12x10          ->        10x10x32          ->          5x5x32           ->        4x4x64
   
   Fully-Connected Layers:
   
@@ -54,7 +54,7 @@ Refer to the .csv file in this repository for a fully tabulated view of the resu
   Convolutional Layers:
        
        (kernel=5x5, stride=1)      (maxPool-2d, stride = 2)     (kernel=3x3, stride=1)      (maxPool-2d, stride = 2)     (kernel=3x3, stride=1)
-  28x28x1        ->       24x24x5          ->           12x12x5          ->        10x10x10          ->          5x5x10           ->        3x3x20
+    28x28x1        ->       24x24x5          ->           12x12x5          ->        10x10x10          ->          5x5x10           ->        3x3x20
   
   Fully-Connected Layers:
   
@@ -73,7 +73,7 @@ Refer to the .csv file in this repository for a fully tabulated view of the resu
   Convolutional Layers:
        
        (kernel=5x5, stride=1)      (maxPool-2d, stride = 2)     (kernel=5x5, stride=1)      (kernel=3x3, stride=1)     (kernel=3x3, stride=1)
-  28x28x1        ->       24x24x12          ->           12x12x12          ->        8x8x24          ->          6x6x48           ->        4x4x60
+    28x28x1        ->       24x24x12          ->           12x12x12          ->        8x8x24          ->          6x6x48           ->        4x4x60
   
   Fully-Connected Layers:
   
@@ -94,7 +94,7 @@ Here, we added two layers of zero-padding to increase the input size of the imag
   Convolutional Layers:
    
      (kernel=5x5, stride=1)      (AvgPool-2d, stride = 2)     (kernel=3x3, stride=1)       (AvgPool-2d, stride = 2)     
-  28x28x1        ->       24x24x6          ->           12x12x6          ->        10x10x16          ->          5x5x16
+    28x28x1        ->       24x24x6          ->           12x12x6          ->        10x10x16          ->          5x5x16
   
   Fully-Connected Layers:
   
