@@ -1,0 +1,10 @@
+Model,Accuracy
+Regular,88%
+Conv1,94%
+Conv2,87%
+Conv3,94%
+LeNet-5,93%
+Conv1_dropout,92.00%
+Conv2_dropout,72%
+Conv3_dropout,95%
+LeNet-5_dropout,88.00%
