@@ -4,8 +4,11 @@ Some work for this project was directly used in the McGill course ECSE 551, and 
 
 Refer to my website for a quick description of the objectives and results - https://davwyr.com/portfolio/Projects/ML_projects....
 
+What is posted here is primarily a perusal of a few different models that were not explored (and some that were explored) in the ECSE 551 project.
+This repo and the results therein are mainly to demonstrate my ability to tamper with different models on a given classification task. 
+
 This classification was on 28x28 pixel greyscale images. The only real pre-processing step was a "normalization" of sorts, to bring the pixel values from the range
-[0, 1] to the range [-1, 1]. The project was primarily done using the PyTorch library.
+[0, 1] to the range [-1, 1]. The project was primarily done using the PyTorch library. Some zero-padding was used in pre-processing for the LeNet-5 model as well.
 
 Refer to the .csv file in this repository for a fully tabulated view of the results. I'll explain the features of the particular models below:
 
